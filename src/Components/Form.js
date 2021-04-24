@@ -33,9 +33,9 @@ class Form extends React.Component {
   render() {
     const { firstName, lastName, email, creditCard, zipCode } = this.state;
     return (
-      <section>
+      <section className="form" >
         <h2>Checkout</h2>
-        <form onSubmit={this.handleSubmit}>
+        <form className="formInput" onSubmit={this.handleSubmit}>
           <label htmlFor="firstName">First Name</label>
           <input
             id="firstName"

@@ -1,1 +1,22 @@
 
+.App {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.formInput {
+    display: flex;
+   flex-direction: column;
+   width: 200px;
+}
+
+button {
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-left: 40px;
+}

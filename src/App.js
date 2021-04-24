@@ -46,14 +46,11 @@ class App extends React.Component {
     const total = this.total()
     const { cart } = this.state
     return (
-       <>
-       <h1>
-        My Garage Sale
-       </h1>
+       <div className="App">
        <ShoppingCart products={productData} cart={cart} addToCart={this.addToCart}/>
        <Products cart={cart} subTotal={subTotal} tax={tax}/>
        <Form total={total}/>
-       </>
+       </div>
     )
   }
 };
